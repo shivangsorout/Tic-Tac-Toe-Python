@@ -1,8 +1,8 @@
 # Tic Tac Toe- Vertical Winner
 
 game = [[1,0,0],
-		[1,0,0],
-		[1,0,0],]
+        [1,0,0],
+        [1,0,0],]
 
 '''
 #first and hard coded approach not dynamic
@@ -10,13 +10,13 @@ game = [[1,0,0],
 column = [0,1,2]
 
 for col in column:
-	check = []
+    check = []
 
-	for row in game:
-		check.append(row[col])
+    for row in game:
+        check.append(row[col])
 
-	if check.count(check[0]) == len(check) and check[0] != 0:
-		print('Winner')
+    if check.count(check[0]) == len(check) and check[0] != 0:
+        print('Winner')
 '''
 
 '''
@@ -24,17 +24,17 @@ for col in column:
 
 x = range(3)
 for i in x:
-	print(i)
+    print(i)
 
 '''
 
 #second and best approach 
 
 for col in range(len(game)):
-	check = []
+    check = []
 
-	for row in game:
-		check.append(row[col])
+    for row in game:
+        check.append(row[col])
 
-	if check.count(check[0]) == len(check) and check[0] != 0:
-		print('Winner')
+    if check.count(check[0]) == len(check) and check[0] != 0:
+        print('Winner')

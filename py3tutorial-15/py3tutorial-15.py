@@ -63,10 +63,10 @@ dictionary = {'noob':8,'poop':69}
 print(dictionary['noob'])
 dictionary['cat'] = 3
 for i in dictionary:
-	print(i)
+    print(i)
 
 for i in dictionary:
-	print(dictionary[i])
+    print(dictionary[i])
 '''
 
 '''
